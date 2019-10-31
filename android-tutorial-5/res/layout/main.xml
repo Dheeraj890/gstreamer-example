@@ -35,13 +35,6 @@
             android:src="@android:drawable/ic_media_pause"
             android:text="@string/button_stop" />
 
-        <ImageButton
-            android:id="@+id/button_select"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/button_select"
-            android:src="@android:drawable/ic_media_next"
-            android:text="@string/button_select" />
     </LinearLayout>
 
     <LinearLayout
@@ -73,5 +66,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/button_select"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/button_select"
+        android:src="@android:drawable/btn_default"
+        android:text="@string/button_select" />
 
 </LinearLayout>
