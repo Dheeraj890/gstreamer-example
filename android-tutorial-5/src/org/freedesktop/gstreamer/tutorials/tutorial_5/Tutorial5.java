@@ -18,6 +18,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
@@ -101,7 +102,7 @@ public class Tutorial5 extends Activity implements SurfaceHolder.Callback, OnSee
             }
         });
 
-        ImageButton select = (ImageButton) this.findViewById(R.id.button_select);
+        Button select = (Button) this.findViewById(R.id.button_select);
         select.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
 //                Intent i = new Intent(getBaseContext(), FileDialog.class);
